@@ -1,13 +1,14 @@
 package it.sevenbits.task3.interfacereverse;
+
+import it.sevenbits.task3.array.MyArray;
+
 /**
- * @param
+ * Interface realize reverse of array of type T.
  */
 public interface IInvertInterface {
     /**
-     *
-     *
      * @param array input array
      * @param <T> is a type
      */
-    <T> void reverseArray(final T[] array);
+    <T> void reverseArray(MyArray<T> array);
 }
