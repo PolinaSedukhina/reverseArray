@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 /**
- * Test.
+ * Test class MyArray.
  */
 public class MyArrayTest {
     private MyArray<Integer> integerMyArray;
