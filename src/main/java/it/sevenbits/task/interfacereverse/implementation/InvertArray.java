@@ -1,7 +1,7 @@
-package it.sevenbits.task3.interfacereverse.implementation;
+ package it.sevenbits.task.interfacereverse.implementation;
 
-import it.sevenbits.task3.array.MyArray;
-import it.sevenbits.task3.interfacereverse.IInvertInterface;
+import it.sevenbits.task.array.MyArray;
+import it.sevenbits.task.interfacereverse.IInvertInterface;
 
 /**
  * Provides reversing for arrays of any type.
@@ -14,8 +14,12 @@ public class InvertArray implements IInvertInterface {
      * @param <T> is a type
      */
     public final <T> void reverseArray(final MyArray<T> array) {
-        if (array.getMyArray().length == 0) {
-            throw new IllegalArgumentException("Array is empty");
+        try {
+            if (array.getMyArray().length == 0) {
+                throw new IllegalArgumentException("Array is empty");
+            }
+        } catch (NullPointerException e) {
+            throw new NullPointerException("Null pointer exception");
         }
         int lengthOfArray = array.getMyArray().length;
         T temp;

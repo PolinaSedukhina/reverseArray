@@ -1,6 +1,6 @@
-package it.sevenbits.task3.interfacereverse;
+ package it.sevenbits.task.interfacereverse;
 
-import it.sevenbits.task3.array.MyArray;
+import it.sevenbits.task.array.MyArray;
 
 /**
  * Interface realize reverse of array of type T.

@@ -1,28 +1,27 @@
+ package it.sevenbits.task.Main;
 
-package it.sevenbits.task3.thirdhomework;
-
-import it.sevenbits.task3.array.MyArray;
-import it.sevenbits.task3.exception.MyException;
-import it.sevenbits.task3.interfacereverse.implementation.InvertArray;
+import it.sevenbits.task.array.MyArray;
+import it.sevenbits.task.exception.MyException;
+import it.sevenbits.task.interfacereverse.implementation.InvertArray;
 
 /**
- * Homework 4.
+ * Homework 5.
  * Sedukhina Polina
  */
 
-public final class MyThirdHomework {
+public final class Main {
     /**
      * size of array.
      */
-    private static final int SIZE = 7;
+    private static final int SIZE = 5;
 
     /**
      * Default constructor.
      */
-    private MyThirdHomework() {
+    private Main() {
     }
     /**
-     * @param args incoming arguments
+     * @param args input arguments
      * @throws MyException is exception
      */
     public static void main(final String[] args) throws MyException {

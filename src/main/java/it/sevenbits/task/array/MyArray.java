@@ -1,4 +1,4 @@
-package it.sevenbits.task3.array;
+package it.sevenbits.task.array;
 
 /**
  * realizes the essence of the array.
