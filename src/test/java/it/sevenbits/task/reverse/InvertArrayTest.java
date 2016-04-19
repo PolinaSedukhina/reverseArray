@@ -3,14 +3,13 @@ package it.sevenbits.task.reverse;
 import it.sevenbits.task.array.MyArray;
 import it.sevenbits.task.exception.MyException;
 import it.sevenbits.task.interfacereverse.implementation.InvertArray;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 import static junit.framework.TestCase.fail;
 
 /**
- * Created by polly on 18.04.16.
+ * Test class InvertArray.
  */
 public class InvertArrayTest {
     private InvertArray myArray;
